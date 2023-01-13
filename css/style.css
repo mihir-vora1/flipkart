@@ -1,0 +1,232 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto,Arial,sans-serif;
+  position: relative;
+  background-color: #f1f3f6;
+}
+
+
+/*header section start*/
+.header-section{
+	position: fixed;
+	display: flex;
+	width: 100%;
+	height: 70px;
+	display:flex;
+	background-color: #2874f0;
+	height: 56px;
+	justify-content: center;
+
+}	
+
+
+.l{
+/*	display: inline;*/
+	display: flex;
+	margin: 4px;
+
+}
+
+/*flipkart-logo*/
+/*div.flp-log{
+	display: inline;
+}*/
+img.flipkart-logo{
+	width: 75px;
+	height: 20.11px;
+	margin-top:6px;
+}
+
+a img{
+	text-decoration: none;
+	border: none;
+}
+
+a.sub-text-link{
+	text-decoration: none;
+}
+
+.sub-t{
+	font-size: 11px;
+	  margin-top: -3px;
+	  font-size: 11px;
+	  font-weight:500;
+	  font-style: italic;
+
+}
+._subtext1{
+	color: #fff;
+}
+
+._subtext2{
+	  color: #ffe500;
+}
+
+form{
+	height: 36px;
+	width: 100%;
+	position: relative;
+	max-width: 564px;
+	justify-content: space-between;
+	flex: auto;
+	border-radius: 2px;
+  display: inline-block;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+  margin-left: 13px;
+  margin-top:4px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input{
+  position: relative;
+  display: inline-block;
+	margin-top:6px;
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+
+}
+
+.search-button{
+	display: flex-end;
+	border:1px solid #fff;
+	height: 36px;
+  width: 44px;
+	background-color: #fff;
+	padding: 4px 12px 0px 8px;
+	margin-top: 5px;
+	cursor:pointer;
+	border:none;
+}
+
+/*login button*/
+.lb{
+	display: flex;
+	position: relative;
+	margin-left: 47px;
+	margin-top: 6.9px;
+
+}
+.login-button{
+	background-color: #fff;
+	padding: 5px 40px;
+	font-size: 16px;
+	font-weight: 600;
+	color:#2874f0;
+	height: 32px;
+	border-radius: 2px;
+	text-decoration: none;
+	text-align:center;
+	border: 1px solid #dbdbdb;
+	letter-spacing: .1px;
+	margin-top: 4px;
+}
+
+ul{
+	text-decoration: none;
+}
+
+.h-l-1 {
+	display: flex;
+	position: relative;
+	text-decoration: none;
+	color:white;
+	font-weight: 550;
+	font-size: 16px;
+	margin-top: 16px;
+	margin-left: 45px;
+	text-align: center;
+	letter-spacing: .1px;
+}
+
+.s-h-l{
+	margin-right: 3px;
+}
+
+.fa-chevron-down{
+	margin: 3px;
+}
+ 
+.fa-chevron-down:hover{
+  transform: rotateX(180deg);
+  transition: all 0.4s ease-out;
+
+}
+
+
+
+.V3C5bO{
+	margin-right: 9px;
+/*	margin-top: 1px;*/
+}
+
+/*header section end*/
+
+/*responsive*/
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+/*navigation section start*/
+/*.navigation-section{
+	display: flex;
+	max-width: 100%;
+	background-color: #fff;
+	height: 112px;
+	box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 16%);
+	text-align: center;
+	justify-content: center;
+	position: relative;
+
+}
+*/
+
+
+.fp-nav-section{
+	background-color: #fff;
+	height: 150px;
+}
+/*navigation section end*/
